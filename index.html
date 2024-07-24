@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="location-bar">
+        <form action="">
+            <div class="location">
+                <div class="loc">
+                    <label for="">Enter location</label>
+                    <br>
+                    <input type="loc" placeholder="Krishna Nagar" value="Krishna Nagar">
+                </div>
+                <div class="state">
+                        <label for="">Enter state</label>
+                        <br>
+                        <input type="loc" placeholder="Delhi" value="Delhi">
+                    </div>
+                </div>
+                <input type="submit" class="sub">
+        </form>
+    </div>
+
+    <div class="container">
+        <p class="location-heading">Jagat Puri, Delhi</p>
+        <div class="temprature">
+            <p class="temp"></p><img src="degree icon.png" alt="" class="weather_Img">
+            <img class="weather-symbol" src="sun.png" alt="">
+        </div>
+
+        <div class="other-info">
+            <div class="sunrise info">
+                <p class="head">Sunrise Time</p>
+                <p class="srise"></p>
+            </div>
+            <div class="sunset info">
+                <p class="head">Sunset Time</p>
+                <p class="sset"></p>
+            </div>
+            <div class="humidity info">
+                <p class="head">Humidity</p>
+                <p class="humid"></p>
+            </div>
+            <div class="wind info">
+                <p class="head">Wind Speed</p>
+                <p class="wind-speed"></p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
